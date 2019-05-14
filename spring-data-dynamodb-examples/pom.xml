@@ -65,6 +65,13 @@
     <build>
         <pluginManagement>
             <plugins>
+            	<plugin>
+                  <groupId>net.revelc.code.formatter</groupId>
+                    <artifactId>formatter-maven-plugin</artifactId>
+                    <configuration>
+                        <configFile>../../src/eclipse-java-google-style.xml</configFile>
+                    </configuration>
+                </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>

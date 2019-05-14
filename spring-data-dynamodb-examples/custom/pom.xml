@@ -24,7 +24,7 @@
         <groupId>com.github.derjust</groupId>
         <artifactId>spring-data-dynamodb-examples</artifactId>
         <version>5.1.1-SNAPSHOT</version>
-        <relativePath />
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>spring-data-dynamodb-examples-custom</artifactId>
     <name>Spring Data DynamoDB Custom Example</name>
